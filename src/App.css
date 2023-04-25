@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://github.com/fireclint/weather-app-react/blob/main/src/assets/sunset.jpg?raw=true")
+    no-repeat center center/cover;
+  color: aliceblue;
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  width: 700px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.search {
+  position: fixed;
+  top: 0;
+  text-align: center;
+  padding: 30px;
+}
+
+input {
+  padding: 12px 24px;
+  font-size: 20px;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.1);
+  color: #f8f8f8;
+}
+
+::placeholder {
+  color: #f8f8f8;
+  text-align: center;
+}

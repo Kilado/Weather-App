@@ -7,8 +7,7 @@
 }
 
 body {
-  background: url("https://github.com/fireclint/weather-app-react/blob/main/src/assets/sunset.jpg?raw=true")
-    no-repeat center center/cover;
+  background: url("./sunset.jpg") no-repeat center center/cover;
   color: aliceblue;
   font-family: "Montserrat", sans-serif;
   font-size: 28px;
